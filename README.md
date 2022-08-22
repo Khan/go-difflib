@@ -1,9 +1,6 @@
-go-difflib
-==========
+# go-difflib
 
-THIS PACKAGE IS NO LONGER MAINTAINED.
-
-At this point, I have no longer the time nor the interest to work on go-difflib. I apologize for the inconvenience.
+Forked from [this unmaintained package](https://github.com/pmezard/go-difflib) per [ADR 566](https://khanacademy.atlassian.net/wiki/spaces/ENG/pages/2014576753/ADR+566+Options+for+diffing+user+programs+in+Go).
 
 [![GoDoc](https://godoc.org/github.com/pmezard/go-difflib/difflib?status.svg)](https://godoc.org/github.com/pmezard/go-difflib/difflib)
 
@@ -13,9 +10,9 @@ testing purposes.
 
 The following class and functions (and related tests) have be ported:
 
-* `SequenceMatcher`
-* `unified_diff()`
-* `context_diff()`
+- `SequenceMatcher`
+- `unified_diff()`
+- `context_diff()`
 
 ## Installation
 
@@ -50,4 +47,3 @@ would output:
 -bar
 +baz
 ```
-
